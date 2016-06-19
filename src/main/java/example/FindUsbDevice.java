@@ -6,7 +6,7 @@
  * of the Common Public License:
  * http://oss.software.ibm.com/developerworks/opensource/license-cpl.html
  */
-
+package example;
 import java.io.*;
 import java.util.*;
 
@@ -86,7 +86,7 @@ public class FindUsbDevice
 	 * @param usbDevice The UsbDevice to check.
 	 * @param vendorId The vendor id to match.
 	 * @param productId The product id to match.
-	 * @param A List of any matching UsbDevice(s).
+	 * @return A List of any matching UsbDevice(s).
 	 */
 	public static List getUsbDevicesWithId(UsbDevice usbDevice, short vendorId, short productId)
 	{

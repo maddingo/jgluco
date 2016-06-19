@@ -6,6 +6,7 @@
  * of the Common Public License:
  * http://oss.software.ibm.com/developerworks/opensource/license-cpl.html
  */
+package example;
 
 import java.io.*;
 import java.util.*;

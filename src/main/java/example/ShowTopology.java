@@ -7,6 +7,8 @@
  * http://oss.software.ibm.com/developerworks/opensource/license-cpl.html
  */
 
+package example;
+
 import java.util.*;
 
 import javax.usb.*;
