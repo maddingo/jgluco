@@ -72,7 +72,11 @@ public class DataReader {
         List<String> result = new LinkedList<>();
 
         UsbPipe inPipe = inEp.getUsbPipe();
-        inPipe.syncSubmit();
+        try {
+            inPipe.syncSubmit(result);
+        } catch (UsbException e) {
+            new RuntimeException(e);
+        }
         return result;
     }
 
